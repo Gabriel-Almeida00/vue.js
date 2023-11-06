@@ -15,7 +15,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "node-sass": "^9.0.0",
     "pinia": "^2.1.7",
+    "sass-loader": "^13.3.2",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
@@ -37,6 +39,7 @@
     "jsdom": "^22.1.0",
     "npm-run-all2": "^6.1.1",
     "prettier": "^3.0.3",
+    "sass": "^1.69.5",
     "start-server-and-test": "^2.0.1",
     "typescript": "~5.2.0",
     "vite": "^4.4.11",
