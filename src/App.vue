@@ -1,15 +1,14 @@
-<script setup lang="ts">
+<script setup>
 import TodoList from './components/TodoList.vue';
-
 
 </script>
 
 <template>
-  <header>
+  <div id="as" class="container">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" />
-  </header>
   <TodoList></TodoList>
-
+  </div>
+  
 </template>
 
 <style >
@@ -24,7 +23,7 @@ import TodoList from './components/TodoList.vue';
 }
 
 
-#app {
+#as {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
